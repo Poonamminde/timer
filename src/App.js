@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Timer from "./component/timer";
 import "./App.css";
 
