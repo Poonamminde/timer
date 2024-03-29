@@ -1,0 +1,37 @@
+.container {
+  background: linear-gradient(135deg, rgb(158, 78, 215) 40%, rgb(211, 41, 41));
+  height: 100vh;
+  margin: 0;
+}
+#heading1 {
+  color: white;
+  font-size: 2.5rem;
+}
+#heading2 {
+  font-size: 2.5rem;
+  color: purple;
+}
+#time-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.box {
+  color: white;
+  background: linear-gradient(180deg, purple, pink);
+  height: 120px;
+  width: 120px;
+  font-size: 28px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.input {
+  background-color: rgb(158, 78, 215);
+  padding: 7px;
+  font-size: 24px;
+  border: 2px solid white;
+  margin: 20px;
+  border-radius: 5px;
+}
