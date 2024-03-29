@@ -21,13 +21,13 @@ const Index = () => {
       console.log("hii");
       setTimeState(2);
     }
-  }, [currentTime, futureTime]);
+  }, [currentTime, futureTime, interval]);
   // useEffect(() => {
   //   localStorage.setItem(time, futureTime);
   // }, [futureTime]);
   useEffect(() => {
     //setFutureTime(localStorage.getItem(time));
-    if (Number(localStorage.getItem("time")) > currentTime) {
+    if (Number(localStorage.getItem("time")) > new Date().getTime()) {
       setFutureTime(Number(localStorage.getItem("time")));
       startTimer();
       setTimeState(1);
